@@ -1,0 +1,1054 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Products</title>
+<link href="CSS/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="CSS/style.css" rel="stylesheet" type="text/css">
+<link href="CSS/Pro.css" rel="stylesheet" type="text/css">
+<script src="JS/html5shiv.min.js"></script>
+<script src="JS/respond.min.js"></script>
+<link href="images/footer_logo.png" rel="icon">   
+    
+</head>
+    
+<body>
+        <!--Start Nav-->
+    
+ <nav class="navbar navbar-default" id="MyNav">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header div-nav-btn">
+      <button id="button-toggle-nav" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" id="loGo" href="#">
+        <img alt="Brand" src="images/logo.png">
+      </a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right collapse-nav-span" id="links">
+        <li><a href="home.html">Home</a></li>
+          <li id="li_3"><a class="con" href="Products.html">Product</a></li>
+        <li><a href="about_us.html">About Us</a></li>
+        <li><a id="contactUS" href="#footer_logo">Contact Us</a></li>
+        
+        <li><a href="Sign_up.html">Order Now</a></li>
+      </ul>
+        
+
+    </div>
+      <div id="login" class="login wide-screen-login">Login</div>
+  </div>
+</nav>    
+        <!--End naV-->
+   
+   
+    
+    
+    
+    <!--Login-->
+    <div class="log-container" style="z-index: 999">
+        <div class="login-form">
+            <a href="#" class="exit-login-btn">×</a>
+            <h1>Log In</h1>
+            <input type="text" placeholder="Email">
+            <input type="password" placeholder="Password">
+            <input type="submit" value="Login" class="btn-success">
+            <a href="Sign_up.html">I don't have an account!</a>
+        </div>
+    </div>
+    
+    <!--end login-->
+    
+    <!--logo loader-->
+    <img src="images/logo.png" id="logo-loader">
+    
+    <img src="images/animation_images/Broccoli_Walks.gif" title="يالهوووووووى" id="logo_running_veg" class="hidden-xs hidden-sm">
+    
+    <img src="images/animation_images/ice_cube.png" id="logo_running_ice" class="hidden-xs hidden-sm">
+    
+    
+         <!--End logo loader-->
+    
+    
+    
+    <!--logo loader-->
+    <!--<img src="images/logo.png" id="logo-loader">-->
+    
+    <!--End logo loader-->
+    
+    
+    
+    <div class="container">
+        <div class="row wraper">
+            <div class="iso-nav">
+            <ul class="na">
+                <li id="btn_showall" class="active mybtn" data-filter="*">Show All</li>
+                <li id="btn_veg" data-filter=".veg" class="mybtn">Vegtabales</li>
+                <li id="btn_meat" data-filter=".meat" class="mybtn">Meat/Chicken</li>
+                <li id="btn_seafood" data-filter=".sea" class="mybtn">SeaFood</li>
+            </ul>
+        </div>
+            <div class="content main-iso">
+                <div class="col-xs-12 col-sm-4 col-md-3 item veg">
+                    <div class="tes mo" >
+                        <img src="images/hani/1-01.jpg" class="img-responsive btr">
+                        <span class="badge badge-info bd">10% OFF</span>
+                        <div class="overlay">
+                            <div  class="text">
+                                <h3>peas</h3>
+                                <span style="margin-right: 15px;" class="be">20 L.E</span>
+                                <del>18 L.E</del>
+                            </div>
+                        </div>
+                        <div class="olay">
+                            <div  class="text">
+                                <div class="add"><img src="images/hani/11.png" class="img-responsive" title="Add To Cart"></div>
+                                <input style="color:black; width:60px;hight:10px;" type="number" max="99999999" min="1">
+                                <select size="1" style="color:black;">
+                                    <option>Kilo</option>
+                                    <option>1/2 Kilo</option>
+                                    <option>Ton</option>
+                                </select>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-xs-12 col-sm-4 col-md-3 item meat">
+                    <div class="tes mo">
+                        <img src="images/hani/11-01.jpg" class="img-responsive bbr">
+                         <span class="badge badge-info bd">10% OFF</span>
+                        <div class="overlay">
+                            <div  class="text">
+                                <h3>Meat</h3>
+                                <span style="margin-right: 15px;" class="be">160 L.E</span>
+                                <del>144 L.E</del>
+                            </div>
+                        </div>
+                         <div class="olay">
+                            <div  class="text">
+                                <div class="add"><img src="images/hani/11.png" class="img-responsive" title="Add To Cart"></div>
+                                <input style="color:black; width:60px;hight:10px;" type="number" max="99999999" min="1">
+                                <select size="1" style="color:black;">
+                                    <option>Kilo</option>
+                                    <option>1/2 Kilo</option>
+                                    <option>Ton</option>
+                                </select>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-3 item sea">
+                    <div class="tes mo">
+                          <img src="images/hani/Octopus.jpg" class="img-responsive bbl">
+                         <span class="badge badge-info bd">10% OFF</span>
+                        <div class="overlay">
+                            <div  class="text">
+                                <h3>Octopus</h3>
+                                <span style="margin-right: 15px;" class="be">180 L.E</span>
+                                <del>162 L.E</del>
+                            </div>
+                        </div>
+                         <div class="olay">
+                            <div  class="text">
+                                <div class="add"><img src="images/hani/11.png" class="img-responsive" title="Add To Cart"></div>
+                                <input style="color:black; width:60px;hight:10px;" type="number" max="99999999" min="1">
+                                <select size="1" style="color:black;">
+                                    <option>Kilo</option>
+                                    <option>1/2 Kilo</option>
+                                    <option>Ton</option>
+                                </select>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-3 item veg">
+                    <div class="tes mo">
+                        <img src="images/hani/2-01.jpg" class="img-responsive btr">
+                        <span class="badge badge-info bd">10% OFF</span>
+                        <div class="overlay">
+                            <div  class="text">
+                                <h3>Onion</h3>
+                                <span style="margin-right: 15px;" class="be">40 L.E</span>
+                                <del>36 L.E</del>
+                            </div>
+                        </div>
+                         <div class="olay">
+                            <div  class="text">
+                                <div class="add"><img src="images/hani/11.png" class="img-responsive" title="Add To Cart"></div>
+                                <input style="color:black; width:60px;hight:10px;" type="number" max="99999999" min="1">
+                                <select size="1" style="color:black;">
+                                    <option>Kilo</option>
+                                    <option>1/2 Kilo</option>
+                                    <option>Ton</option>
+                                </select>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-3 item meat">
+                    <div class="tes mo">
+                        <img src="images/hani/12-01.png" class="img-responsive bbr">
+                         <span class="badge badge-info bd">10% OFF</span>
+                        <div class="overlay">
+                            <div  class="text">
+                                <h3>Burger</h3>
+                                <span style="margin-right: 15px;" class="be">60 L.E</span>
+                                <del>54 L.E</del>
+                            </div>
+                        </div>
+                         <div class="olay">
+                            <div  class="text">
+                                <div class="add"><img src="images/hani/11.png" class="img-responsive" title="Add To Cart"></div>
+                                <input style="color:black; width:60px;hight:10px;" type="number" max="99999999" min="1">
+                                <select size="1" style="color:black;">
+                                    <option>Kilo</option>
+                                    <option>1/2 Kilo</option>
+                                    <option>Ton</option>
+                                </select>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-3 item sea">
+                    <div class="tes mo">
+                          <img src="images/hani/Shrimps.jpg" class="img-responsive bbl">
+                         <span class="badge badge-info bd">10% OFF</span>
+                        <div class="overlay">
+                            <div  class="text">
+                                <h3>Shrimps</h3>
+                                <span style="margin-right: 15px;" class="be">280 L.E</span>
+                                <del>252 L.E</del>
+                            </div>
+                        </div>
+                         <div class="olay">
+                            <div  class="text">
+                                <div class="add"><img src="images/hani/11.png" class="img-responsive" title="Add To Cart"></div>
+                                <input style="color:black; width:60px;hight:10px;" type="number" max="99999999" min="1">
+                                <select size="1" style="color:black;">
+                                    <option>Kilo</option>
+                                    <option>1/2 Kilo</option>
+                                    <option>Ton</option>
+                                </select>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-3 item veg">
+                    <div class="tes mo">
+                        <img src="images/hani/3-01.jpg" class="img-responsive btr">
+                        <span class="badge badge-info bd">10% OFF</span>
+                        <div class="overlay">
+                            <div  class="text">
+                                <h3>Green beans</h3>
+                                <span style="margin-right: 15px;" class="be">20 L.E</span>
+                                <del>18 L.E</del>
+                            </div>
+                        </div>
+                         <div class="olay">
+                            <div  class="text">
+                                <div class="add"><img src="images/hani/11.png" class="img-responsive" title="Add To Cart"></div>
+                                <input style="color:black; width:60px;hight:10px;" type="number" max="99999999" min="1">
+                                <select size="1" style="color:black;">
+                                    <option>Kilo</option>
+                                    <option>1/2 Kilo</option>
+                                    <option>Ton</option>
+                                </select>  
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+                <div class="col-xs-12 col-sm-4 col-md-3 item meat">
+                    <div class="tes mo">
+                          <img src="images/hani/14-01.jpg" class="img-responsive btr">
+                         <span class="badge badge-info bd">10% OFF</span>
+                        <div class="overlay">
+                            <div  class="text">
+                                <h3>Basturma</h3>
+                                <span style="margin-right: 15px;" class="be">170 L.E</span>
+                                <del>153 L.E</del>
+                            </div>
+                        </div>
+                         <div class="olay">
+                            <div  class="text">
+                                <div class="add"><img src="images/hani/11.png" class="img-responsive" title="Add To Cart"></div>
+                                <input style="color:black; width:60px;hight:10px;" type="number" max="99999999" min="1">
+                                <select size="1" style="color:black;">
+                                    <option>Kilo</option>
+                                    <option>1/2 Kilo</option>
+                                    <option>Ton</option>
+                                </select>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-3 item sea">
+                    <div class="tes mo">
+                          <img src="images/hani/shutterstock_161139446.jpg" class="img-responsive bbl">
+                         <span class="badge badge-info bd">10% OFF</span>
+                        <div class="overlay">
+                            <div  class="text">
+                                <h3>Mullet</h3>
+                                <span style="margin-right: 15px;" class="be">70 L.E</span>
+                                <del>67 L.E</del>
+                            </div>
+                        </div>
+                         <div class="olay">
+                            <div  class="text">
+                                <div class="add"><img src="images/hani/11.png" class="img-responsive" title="Add To Cart"></div>
+                                <input style="color:black; width:60px;hight:10px;" type="number" max="99999999" min="1">
+                                <select size="1" style="color:black;">
+                                    <option>Kilo</option>
+                                    <option>1/2 Kilo</option>
+                                    <option>Ton</option>
+                                </select>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-3 item veg">
+                    <div class="tes mo">
+                        <img src="images/hani/4-01.jpg" class="img-responsive bbr">
+                        <span class="badge badge-info bd">10% OFF</span>
+                        <div class="overlay">
+                            <div  class="text">
+                                <h3>Broccoli</h3>
+                                <span style="margin-right: 15px;" class="be">10 L.E</span>
+                                <del>9 L.E</del>
+                            </div>
+                        </div>
+                         <div class="olay">
+                            <div  class="text">
+                                <div class="add"><img src="images/hani/11.png" class="img-responsive" title="Add To Cart"></div>
+                                <input style="color:black; width:60px;hight:10px;" type="number" max="99999999" min="1">
+                                <select size="1" style="color:black;">
+                                    <option>Kilo</option>
+                                    <option>1/2 Kilo</option>
+                                    <option>Ton</option>
+                                </select>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-3 item meat">
+                    <div class="tes mo">
+                          <img src="images/hani/Sausages.jpg" class="img-responsive bbl">
+                         <span class="badge badge-info bd">10% OFF</span>
+                        <div class="overlay">
+                            <div  class="text">
+                                <h3>Sausage</h3>
+                                <span style="margin-right: 15px;" class="be">55 L.E</span>
+                                <del>49.5 L.E</del>
+                            </div>
+                        </div>
+                         <div class="olay">
+                            <div  class="text">
+                                <div class="add"><img src="images/hani/11.png" class="img-responsive" title="Add To Cart"></div>
+                                <input style="color:black; width:60px;hight:10px;" type="number" max="99999999" min="1">
+                                <select size="1" style="color:black;">
+                                    <option>Kilo</option>
+                                    <option>1/2 Kilo</option>
+                                    <option>Ton</option>
+                                </select>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-3 item sea">
+                    <div class="tes mo">
+                          <img src="images/hani/Sardine.jpg" class="img-responsive bbl">
+                         <span class="badge badge-info bd">10% OFF</span>
+                        <div class="overlay">
+                            <div  class="text">
+                                <h3>Sardine</h3>
+                                <span style="margin-right: 15px;" class="be">40 L.E</span>
+                                <del>36 L.E</del>
+                            </div>
+                        </div>
+                         <div class="olay">
+                            <div  class="text">
+                                <div class="add"><img src="images/hani/11.png" class="img-responsive" title="Add To Cart"></div>
+                                <input style="color:black; width:60px;hight:10px;" type="number" max="99999999" min="1">
+                                <select size="1" style="color:black;">
+                                    <option>Kilo</option>
+                                    <option>1/2 Kilo</option>
+                                    <option>Ton</option>
+                                </select>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-3 item veg">
+                    <div class="tes mo">
+                        <img src="images/hani/5-01.jpg" class="img-responsive bbr">
+                         <span class="badge badge-info bd">10% OFF</span>
+                        <div class="overlay">
+                            <div  class="text">
+                                <h3>Carrot</h3>
+                                <span style="margin-right: 15px;" class="be">4 L.E</span>
+                                <del>3.5 L.E</del>
+                            </div>
+                        </div>
+                         <div class="olay">
+                            <div  class="text">
+                                <div class="add"><img src="images/hani/11.png" class="img-responsive" title="Add To Cart"></div>
+                                <input style="color:black; width:60px;hight:10px;" type="number" max="99999999" min="1">
+                                <select size="1" style="color:black;">
+                                    <option>Kilo</option>
+                                    <option>1/2 Kilo</option>
+                                    <option>Ton</option>
+                                </select>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-3 item meat">
+                    <div class="tes mo">
+                          <img src="images/hani/Kofta.jpg" class="img-responsive btr">
+                         <span class="badge badge-info bd">10% OFF</span>
+                        <div class="overlay">
+                            <div  class="text">
+                                <h3>Kofta</h3>
+                                <span style="margin-right: 15px;" class="be">70 L.E</span>
+                                <del>63 L.E</del>
+                            </div>
+                        </div>
+                         <div class="olay">
+                            <div  class="text">
+                                <div class="add"><img src="images/hani/11.png" class="img-responsive" title="Add To Cart"></div>
+                                <input style="color:black; width:60px;hight:10px;" type="number" max="99999999" min="1">
+                                <select size="1" style="color:black;">
+                                    <option>Kilo</option>
+                                    <option>1/2 Kilo</option>
+                                    <option>Ton</option>
+                                </select>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-3 item sea">
+                    <div class="tes mo">
+                          <img src="images/hani/Porgy.jpg" class="img-responsive bbl">
+                         <span class="badge badge-info bd">10% OFF</span>
+                        <div class="overlay">
+                            <div  class="text">
+                                <h3>Porgy</h3>
+                                <span style="margin-right: 15px;" class="be">30 L.E</span>
+                                <del>27 L.E</del>
+                            </div>
+                        </div>
+                         <div class="olay">
+                            <div  class="text">
+                                <div class="add"><img src="images/hani/11.png" class="img-responsive" title="Add To Cart"></div>
+                                <input style="color:black; width:60px;hight:10px;" type="number" max="99999999" min="1">
+                                <select size="1" style="color:black;">
+                                    <option>Kilo</option>
+                                    <option>1/2 Kilo</option>
+                                    <option>Ton</option>
+                                </select>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-3 item veg">
+                    <div class="tes mo">
+                        <img src="images/hani/6-01.jpg" class="img-responsive bbr">
+                         <span class="badge badge-info bd">10% OFF</span>
+                        <div class="overlay">
+                            <div  class="text">
+                                <h3>Okra</h3>
+                                <span style="margin-right: 15px;" class="be">25 L.E</span>
+                                <del>22.5 L.E</del>
+                            </div>
+                        </div>
+                         <div class="olay">
+                            <div  class="text">
+                                <div class="add"><img src="images/hani/11.png" class="img-responsive" title="Add To Cart"></div>
+                                <input style="color:black; width:60px;hight:10px;" type="number" max="99999999" min="1">
+                                <select size="1" style="color:black;">
+                                    <option>Kilo</option>
+                                    <option>1/2 Kilo</option>
+                                    <option>Ton</option>
+                                </select>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-3 item meat">
+                    <div class="tes mo">
+                          <img src="images/hani/liver.jpg" class="img-responsive bbl">
+                         <span class="badge badge-info bd">10% OFF</span>
+                        <div class="overlay">
+                            <div  class="text">
+                                <h3>Liver</h3>
+                                <span style="margin-right: 15px;" class="be">140 L.E</span>
+                                <del>126 L.E</del>
+                            </div>
+                        </div>
+                         <div class="olay">
+                            <div  class="text">
+                                <div class="add"><img src="images/hani/11.png" class="img-responsive" title="Add To Cart"></div>
+                                <input style="color:black; width:60px;hight:10px;" type="number" max="99999999" min="1">
+                                <select size="1" style="color:black;">
+                                    <option>Kilo</option>
+                                    <option>1/2 Kilo</option>
+                                    <option>Ton</option>
+                                </select>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-3 item sea">
+                    <div class="tes mo">
+                          <img src="images/hani/Clams.jpg" class="img-responsive bbl">
+                         <span class="badge badge-info bd">10% OFF</span>
+                        <div class="overlay">
+                            <div  class="text">
+                                <h3>Clams</h3>
+                                <span style="margin-right: 15px;" class="be">60 L.E</span>
+                                <del>54 L.E</del>
+                            </div>
+                        </div>
+                         <div class="olay">
+                            <div  class="text">
+                                <div class="add"><img src="images/hani/11.png" class="img-responsive" title="Add To Cart"></div>
+                                <input style="color:black; width:60px;hight:10px;" type="number" max="99999999" min="1">
+                                <select size="1" style="color:black;">
+                                    <option>Kilo</option>
+                                    <option>1/2 Kilo</option>
+                                    <option>Ton</option>
+                                </select>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-3 item veg">
+                    <div class="tes mo">
+                        <img src="images/hani/7-01.jpg" class="img-responsive btl">
+                         <span class="badge badge-info bd">10% OFF</span>
+                        <div class="overlay">
+                            <div  class="text">
+                                <h3>spinach</h3>
+                                <span style="margin-right: 15px;" class="be">10 L.E</span>
+                                <del>9 L.E</del>
+                            </div>
+                        </div>
+                         <div class="olay">
+                            <div  class="text">
+                                <div class="add"><img src="images/hani/11.png" class="img-responsive" title="Add To Cart"></div>
+                                <input style="color:black; width:60px;hight:10px;" type="number" max="99999999" min="1">
+                                <select size="1" style="color:black;">
+                                    <option>Kilo</option>
+                                    <option>1/2 Kilo</option>
+                                    <option>Ton</option>
+                                </select>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-3 item meat">
+                    <div class="tes mo">
+                          <img src="images/hani/chicken.jpg" class="img-responsive bbl">
+                         <span class="badge badge-info bd">10% OFF</span>
+                        <div class="overlay">
+                            <div  class="text">
+                                <h3>Chicken</h3>
+                                <span style="margin-right: 15px;" class="be">60 L.E</span>
+                                <del>54 L.E</del>
+                            </div>
+                        </div>
+                         <div class="olay">
+                            <div  class="text">
+                                <div class="add"><img src="images/hani/11.png" class="img-responsive" title="Add To Cart"></div>
+                                <input style="color:black; width:60px;hight:10px;" type="number" max="99999999" min="1">
+                                <select size="1" style="color:black;">
+                                    <option>Kilo</option>
+                                    <option>1/2 Kilo</option>
+                                    <option>Ton</option>
+                                </select>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-3 item sea">
+                    <div class="tes mo">
+                          <img src="images/hani/Sole Fish.jpg" class="img-responsive bbl">
+                         <span class="badge badge-info bd">10% OFF</span>
+                        <div class="overlay">
+                            <div  class="text">
+                                <h3>Sole</h3>
+                                <span style="margin-right: 15px;" class="be">90 L.E</span>
+                                <del>81 L.E</del>
+                            </div>
+                        </div>
+                         <div class="olay">
+                            <div  class="text">
+                                <div class="add"><img src="images/hani/11.png" class="img-responsive" title="Add To Cart"></div>
+                                <input style="color:black; width:60px;hight:10px;" type="number" max="99999999" min="1">
+                                <select size="1" style="color:black;">
+                                    <option>Kilo</option>
+                                    <option>1/2 Kilo</option>
+                                    <option>Ton</option>
+                                </select>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-3 item veg">
+                    <div class="tes mo">
+                        <img src="images/hani/8-01.jpg" class="img-responsive btl">
+                         <span class="badge badge-info bd">10% OFF</span>
+                        <div class="overlay">
+                            <div  class="text">
+                                <h3>Potato</h3>
+                                <span style="margin-right: 15px;" class="be">15 L.E</span>
+                                <del>13.5 L.E</del>
+                            </div>
+                        </div>
+                         <div class="olay">
+                            <div  class="text">
+                                <div class="add"><img src="images/hani/11.png" class="img-responsive" title="Add To Cart"></div>
+                                <input style="color:black; width:60px;hight:10px;" type="number" max="99999999" min="1">
+                                <select size="1" style="color:black;">
+                                    <option>Kilo</option>
+                                    <option>1/2 Kilo</option>
+                                    <option>Ton</option>
+                                </select>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-3 item meat">
+                    <div class="tes mo">
+                          <img src="images/hani/breast.jpg" class="img-responsive bbl">
+                         <span class="badge badge-info bd">10% OFF</span>
+                        <div class="overlay">
+                            <div  class="text">
+                                <h3>Chicken Breast</h3>
+                                <span style="margin-right: 15px;" class="be">75 L.E</span>
+                                <del>67.5 L.E</del>
+                            </div>
+                        </div>
+                         <div class="olay">
+                            <div  class="text">
+                                <div class="add"><img src="images/hani/11.png" class="img-responsive" title="Add To Cart"></div>
+                                <input style="color:black; width:60px;hight:10px;" type="number" max="99999999" min="1">
+                                <select size="1" style="color:black;">
+                                    <option>Kilo</option>
+                                    <option>1/2 Kilo</option>
+                                    <option>Ton</option>
+                                </select>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-3 item sea">
+                    <div class="tes mo">
+                          <img src="images/hani/Mussels.jpg" class="img-responsive bbl">
+                         <span class="badge badge-info bd">10% OFF</span>
+                        <div class="overlay">
+                            <div  class="text">
+                                <h3>Mussels</h3>
+                                <span style="margin-right: 15px;" class="be">90 L.E</span>
+                                <del>81 L.E</del>
+                            </div>
+                        </div>
+                         <div class="olay">
+                            <div  class="text">
+                                <div class="add"><img src="images/hani/11.png" class="img-responsive" title="Add To Cart"></div>
+                                <input style="color:black; width:60px;hight:10px;" type="number" max="99999999" min="1">
+                                <select size="1" style="color:black;">
+                                    <option>Kilo</option>
+                                    <option>1/2 Kilo</option>
+                                    <option>Ton</option>
+                                </select>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-3 item veg">
+                    <div class="tes mo">
+                        <img src="images/hani/9-01.jpg" class="img-responsive btl">
+                         <span class="badge badge-info bd">10% OFF</span>
+                        <div class="overlay">
+                            <div  class="text">
+                                <h3>Sweet Corn</h3>
+                                <span style="margin-right: 15px;" class="be">20 L.E</span>
+                                <del>18 L.E</del>
+                            </div>
+                        </div>
+                         <div class="olay">
+                            <div  class="text">
+                                <div class="add"><img src="images/hani/11.png" class="img-responsive" title="Add To Cart"></div>
+                                <input style="color:black; width:60px;hight:10px;" type="number" max="99999999" min="1">
+                                <select size="1" style="color:black;">
+                                    <option>Kilo</option>
+                                    <option>1/2 Kilo</option>
+                                    <option>Ton</option>
+                                </select>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-3 item meat">
+                    <div class="tes mo">
+                          <img src="images/hani/chicken thigh.jpg" class="img-responsive bbl">
+                         <span class="badge badge-info bd">10% OFF</span>
+                        <div class="overlay">
+                            <div  class="text">
+                                <h3>chicken thigh</h3>
+                                <span style="margin-right: 15px;" class="be">30 L.E</span>
+                                <del>27 L.E</del>
+                            </div>
+                        </div>
+                         <div class="olay">
+                            <div  class="text">
+                                <div class="add"><img src="images/hani/11.png" class="img-responsive" title="Add To Cart"></div>
+                                <input style="color:black; width:60px;hight:10px;" type="number" max="99999999" min="1">
+                                <select size="1" style="color:black;">
+                                    <option>Kilo</option>
+                                    <option>1/2 Kilo</option>
+                                    <option>Ton</option>
+                                </select>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-3 item sea">
+                    <div class="tes mo">
+                          <img src="images/hani/salmon-fish-as-cholesterol-remedy.jpg" class="img-responsive bbl">
+                         <span class="badge badge-info bd">10% OFF</span>
+                        <div class="overlay">
+                            <div  class="text">
+                                <h3>Smoked Salmon</h3>
+                                <span style="margin-right: 15px;" class="be">20 L.E</span>
+                                <del>18 L.E</del>
+                            </div>
+                        </div>
+                         <div class="olay">
+                            <div  class="text">
+                                <div class="add"><img src="images/hani/11.png" class="img-responsive" title="Add To Cart"></div>
+                                <input style="color:black; width:60px;hight:10px;" type="number" max="99999999" min="1">
+                                <select size="1" style="color:black;">
+                                    <option>Kilo</option>
+                                    <option>1/2 Kilo</option>
+                                    <option>Ton</option>
+                                </select>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-21 col-sm-4 col-md-3 item veg">
+                    <div class="tes mo">
+                        <img src="images/hani/10-01.jpg" class="img-responsive bbr">
+                         <span class="badge badge-info bd">10% OFF</span>
+                        <div class="overlay">
+                            <div  class="text">
+                                <h3>Celery</h3>
+                                <span style="margin-right: 15px;" class="be">20 L.E</span>
+                                <del>18 L.E</del>
+                            </div>
+                        </div>
+                         <div class="olay">
+                            <div  class="text">
+                                <div class="add"><img src="images/hani/11.png" class="img-responsive" title="Add To Cart"></div>
+                                <input style="color:black; width:60px;hight:10px;" type="number" max="99999999" min="1">
+                                <select size="1" style="color:black;">
+                                    <option>Kilo</option>
+                                    <option>1/2 Kilo</option>
+                                    <option>Ton</option>
+                                </select>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-3 item meat">
+                    <div class="tes mo">
+                          <img src="images/hani/Skewer.jpg" class="img-responsive bbl">
+                         <span class="badge badge-info bd">10% OFF</span>
+                        <div class="overlay">
+                            <div  class="text">
+                                <h3>Skewer</h3>
+                                <span style="margin-right: 15px;" class="be">70 L.E</span>
+                                <del>60 L.E</del>
+                            </div>
+                        </div>
+                         <div class="olay">
+                            <div  class="text">
+                                <div class="add"><img src="images/hani/11.png" class="img-responsive" title="Add To Cart"></div>
+                                <input style="color:black; width:60px;hight:10px;" type="number" max="99999999" min="1">
+                                <select size="1" style="color:black;">
+                                    <option>Kilo</option>
+                                    <option>1/2 Kilo</option>
+                                    <option>Ton</option>
+                                </select>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-3 item sea">
+                    <div class="tes mo">
+                          <img src="images/hani/anchovy.jpg" class="img-responsive bbl">
+                         <span class="badge badge-info bd">10% OFF</span>
+                        <div class="overlay">
+                            <div  class="text">
+                                <h3>Anchovy</h3>
+                                <span style="margin-right: 15px;" class="be">12 L.E</span>
+                                <del>10.5 L.E</del>
+                            </div>
+                        </div>
+                         <div class="olay">
+                            <div  class="text">
+                                <div class="add"><img src="images/hani/11.png" class="img-responsive" title="Add To Cart"></div>
+                                <input style="color:black; width:60px;hight:10px;" type="number" max="99999999" min="1">
+                                <select size="1" style="color:black;">
+                                    <option>Kilo</option>
+                                    <option>1/2 Kilo</option>
+                                    <option>Ton</option>
+                                </select>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-3 item veg">
+                    <div class="tes mo">
+                        <img src="images/hani/cauliflower.jpg" class="img-responsive btr">
+                         <span class="badge badge-info bd">10% OFF</span>
+                        <div class="overlay">
+                            <div  class="text">
+                                <h3>Cauliflower</h3>
+                                <span style="margin-right: 15px;" class="be">8 L.E</span>
+                                <del>7 L.E</del>
+                            </div>
+                        </div>
+                         <div class="olay">
+                            <div  class="text">
+                                <div class="add"><img src="images/hani/11.png" class="img-responsive" title="Add To Cart"></div>
+                                <input style="color:black; width:60px;hight:10px;" type="number" max="99999999" min="1">
+                                <select size="1" style="color:black;">
+                                    <option>Kilo</option>
+                                    <option>1/2 Kilo</option>
+                                    <option>Ton</option>
+                                </select>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-3 item meat">
+                    <div class="tes mo">
+                          <img src="images/hani/nagts.jpg" class="img-responsive bbl">
+                         <span class="badge badge-info bd">10% OFF</span>
+                        <div class="overlay">
+                            <div  class="text">
+                                <h3>Nuggets</h3>
+                                <span style="margin-right: 15px;" class="be">50 L.E</span>
+                                <del>45 L.E</del>
+                            </div>
+                        </div>
+                         <div class="olay">
+                            <div  class="text">
+                                <div class="add"><img src="images/hani/11.png" class="img-responsive" title="Add To Cart"></div>
+                                <input style="color:black; width:60px;hight:10px;" type="number" max="99999999" min="1">
+                                <select size="1" style="color:black;">
+                                    <option>Kilo</option>
+                                    <option>1/2 Kilo</option>
+                                    <option>Ton</option>
+                                </select>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-3 item sea">
+                    <div class="tes mo">
+                          <img src="images/hani/crabbycrabs.jpg" class="img-responsive bbl">
+                         <span class="badge badge-info bd">10% OFF</span>
+                        <div class="overlay">
+                            <div  class="text">
+                                <h3>Crabs</h3>
+                                <span style="margin-right: 15px;" class="be">70 L.E</span>
+                                <del>63 L.E</del>
+                            </div>
+                        </div>
+                         <div class="olay">
+                            <div  class="text">
+                                <div class="add"><img src="images/hani/11.png" class="img-responsive" title="Add To Cart"></div>
+                                <input style="color:black; width:60px;hight:10px;" type="number" max="99999999" min="1">
+                                <select size="1" style="color:black;">
+                                    <option>Kilo</option>
+                                    <option>1/2 Kilo</option>
+                                    <option>Ton</option>
+                                </select>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-3 item veg">
+                    <div class="tes mo">
+                          <img src="images/hani/Artichokes.jpg" class="img-responsive bbl">
+                         <span class="badge badge-info bd">10% OFF</span>
+                        <div class="overlay">
+                            <div  class="text">
+                                <h3>Artichokes</h3>
+                                <span style="margin-right: 15px;" class="be">60 L.E</span>
+                                <del>54 L.E</del>
+                            </div>
+                        </div>
+                         <div class="olay">
+                            <div  class="text">
+                                <div class="add"><img src="images/hani/11.png" class="img-responsive" title="Add To Cart"></div>
+                                <input style="color:black; width:60px;hight:10px;" type="number" max="99999999" min="1">
+                                <select size="1" style="color:black;">
+                                    <option>Kilo</option>
+                                    <option>1/2 Kilo</option>
+                                    <option>Ton</option>
+                                </select>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-3 item meat">
+                    <div class="tes mo">
+                          <img src="images/hani/chicken burger1.jpg" class="img-responsive bbl">
+                         <span class="badge badge-info bd">10% OFF</span>
+                        <div class="overlay">
+                            <div  class="text">
+                                <h3>Chicken Burger</h3>
+                                <span style="margin-right: 15px;" class="be">60 L.E</span>
+                                <del>54 L.E</del>
+                            </div>
+                        </div>
+                         <div class="olay">
+                            <div  class="text">
+                                <div class="add"><img src="images/hani/11.png" class="img-responsive" title="Add To Cart"></div>
+                                <input style="color:black; width:60px;hight:10px;" type="number" max="99999999" min="1">
+                                <select size="1" style="color:black;">
+                                    <option>Kilo</option>
+                                    <option>1/2 Kilo</option>
+                                    <option>Ton</option>
+                                </select>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-3 item sea">
+                    <div class="tes mo">
+                          <img src="images/hani/sushi.jpg" class="img-responsive bbl">
+                         <span class="badge badge-info bd">10% OFF</span>
+                        <div class="overlay">
+                            <div  class="text">
+                                <h3>Sushi</h3>
+                                <span style="margin-right: 15px;" class="be">200 L.E</span>
+                                <del>180 L.E</del>
+                            </div>
+                        </div>
+                         <div class="olay">
+                            <div  class="text">
+                                <div class="add"><img src="images/hani/11.png" class="img-responsive" title="Add To Cart"></div>
+                                <input style="color:black; width:60px;hight:10px;" type="number" max="99999999" min="1">
+                                <select size="1" style="color:black;">
+                                    <option>Kilo</option>
+                                    <option>1/2 Kilo</option>
+                                    <option>Ton</option>
+                                </select>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                        </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="content">
+                <div class="col-xs-12 col-sm-12 col-md-offset-4 col-md-4">
+                    <div class="tes">
+                         <input class="btn btn-primary" type="button" value="Confirm">
+                    </div>
+                </div>
+                        </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="content">
+                <div class="col-xs-6 col-xs-offset-3 col-sm-offset-0 col-sm-4 col-md-3">
+                    <div class="tes">
+                          <img src="images/hani/saleee.png" class="img-responsive">
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-9">
+                    <div class="tes fore">
+                          <p class="fore">For Any 3 Products From <br>Your Chooise !</p>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-4 col-md-3">
+                    <div class="tes">
+                          <img src="images/hani/coctaleveg.jpg" class="img-responsive  las">
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-4 col-md-3">
+                    <div class="tes">
+                          <img src="images/hani/coctale meat.jpg" class="img-responsive  las">
+                    </div>
+                </div>
+                <div class="col-xs-6 col-xs-offset-3 col-sm-offset-0 col-sm-4 col-md-3">
+                    <div class="tes">
+                          <img src="images/hani/15-01.jpg" class="img-responsive  las">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+        <!--Start Footer-->
+    
+<footer id="footer">
+    <div class="footer text-center">
+     <div class="container">
+      <div class="row">
+       <div class="col-sm-6">
+        <div class="social">
+         <img id="footer_logo" src="images/footer/footer_logo.png" alt="logo">
+         <p>&copy;2017 MASTABA DESIGN</p>
+         <div class="footer_social_media">
+            <div><a href="#"><img src="images/footer/facebook.png"></a></div>
+            <div><a href="#"><img src="images/footer/instagram.png"></a></div>
+            <div><a href="#"><img src="images/footer/twitter.png"></a></div>
+            <div><a href="#"><img src="images/footer/googleplus.png"></a></div>
+         </div>    
+        </div>
+       </div>
+          
+       <div class="col-sm-6">
+        <div class="info">
+              <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span><br>
+              <address>5 Fawzy Moaaz, Smouha<br>Alexandria, Egypt</address>
+              <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
+              <address>0039 5968 2040<br>Customer Service</address>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+</footer>   
+    
+    
+        <!-- End FoOter-->
+    
+    
+    
+<script src="JS/jquery-3.2.1.min.js"></script>
+<script src="JS/bootstrap.min.js"></script>
+<script src="JS/quicksand.js"></script>
+<script src="JS/myfunctions.js"></script>
+<script src="JS/isotope.pkgd.min.js"></script>
+</body>
+</html>

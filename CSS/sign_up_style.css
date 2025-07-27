@@ -1,0 +1,102 @@
+body{
+    overflow-y: hidden;
+}
+.sign_up, footer, nav, p{
+    visibility: hidden;
+}
+nav ul li:last-of-type{
+    background-color: #a1daf7;
+    border-radius: 6px;
+}
+.sign_up{
+    border:1px solid #c4c4c4;
+    overflow-y: auto;
+    box-shadow: 2px 4px 3px #c4c4c4,
+                -2px   0 3px #c4c4c4;
+}
+.sign_up h1, p{
+    text-align: center;
+}
+.sign_up p{
+    margin-top: 10px;
+}
+.sign_up hr{
+    border-color: black;
+    width: 100%;
+}
+.sign_up a{
+    padding: 0;
+}
+.sign_up a img{
+    width: 100%;
+    height: 80px;
+}
+.sign_up .controls{
+    width: 100%;
+}
+.sign_up .controls input{
+    width: 100%;
+    border-radius: 7px;
+    border: 1px solid #c4c4c4;
+    margin-top: 10px;
+    height: 45px;
+    font-size: 25px;
+}
+.sign_up .radio-controls{
+    width: 100%;
+}
+.sign_up .radio-controls input{
+    margin-top: 10px;
+}
+.sign_up .radio-controls span{
+    margin-left: 5px;
+}
+.sign_up .controls p{
+    font-size: 20px;
+}
+.sign_up .controls select{
+    width: 100%;
+    height: 45px;
+    font-size: 25px;
+    color: #727272;
+    border-radius: 7px;
+/*    margin-top: 10px;*/
+}
+.sign_up .controls .terms{
+    font-size: 15px;
+    text-align: left;
+}
+
+.sign_up+p{
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+
+@media only screen and (max-width: 700px){
+    .sign_up h1{
+        font-size: 20px;
+    }
+    .sign_up a img{
+        height: 30px;
+    }
+    .sign_up .or p{
+        font-size: 10px;
+        margin-top: 15px;
+    }
+    .sign_up .controls input, .sign_up .controls select{
+        font-size: 15px;
+        height: 30px;
+    }
+    .sign_up .controls p{
+        font-size: 15px;
+    }
+    .sign_up .controls .terms{
+        font-size: 10px;
+    }
+    .sign_up+p{
+        font-size: 15px;
+    }
+    
+    
+}
